@@ -10,6 +10,7 @@ h1,h2 {
 
 .profile-img{
     border-radius: 50%;
+    width: 90%;
 }
 
 .content-wrap{
@@ -19,22 +20,15 @@ h1,h2 {
 }
 
 
-.float-left{
-    float:left;
-    width:30%;
-    min-height: 175px;
-}
-
-.right-of-float-left{
-    width:70%;
-    min-height: 175px;
-     float:left;
-}
 
 
 
 #Education {
-    background: gold;
+
+    background-image: url(hague.jpg);
+    background-size: cover;
+        background: gold, 1;
+
 }
 
 #work-experience {
@@ -86,3 +80,19 @@ background: red;
 #downloadPDF:hover {
       opacity: 1;
 }
+
+@media(min-width: 900px){
+    .float-left{
+    float:left;
+    width:30%;
+    min-height: 175px;
+}
+
+.right-of-float-left{
+    width:70%;
+    min-height: 175px;
+     float:left;
+}
+
+}
+
