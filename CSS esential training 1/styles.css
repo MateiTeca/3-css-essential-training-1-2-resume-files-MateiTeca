@@ -1,5 +1,11 @@
 body {
     background: lightblue;
+    font-family: 'Noto Serif TC', serif;
+    
+}
+
+h1,h2 {
+    font-family: 'Unlock', cursive;
 }
 
 #work-experience {
