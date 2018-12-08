@@ -54,3 +54,7 @@ footer .footer-links
 
 footer a {color: white;
 padding:10px;}
+
+h2 ~ p {
+    margin: 0;
+}
