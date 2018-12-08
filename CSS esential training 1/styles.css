@@ -1,3 +1,17 @@
 body {
     background: lightblue;
 }
+
+#work-experience {
+    background: navy;
+    color: white;
+}
+
+#Education {
+    background: gold;
+}
+
+footer {
+    background: blue;
+}
+
