@@ -58,3 +58,31 @@ padding:10px;}
 h2 ~ p {
     margin: 0;
 }
+
+nav {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+width: 100%;
+    position: fixed;
+    background: white;
+}
+
+nav a {
+
+    padding: 50px 10px;
+}
+
+#downloadPDF {
+
+    opacity: 0.1;
+width: 10px;
+    height: 10px;
+        position: relative;
+    margin: 0 0;
+background: red;
+}
+
+#downloadPDF:hover {
+      opacity: 1;
+}
